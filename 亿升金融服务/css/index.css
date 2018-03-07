@@ -1,0 +1,324 @@
+
+.main {
+	margin-top: 60px;
+}
+
+.main h2 {
+	font-weight: normal;
+}
+
+.main h2 .title-text {
+	text-align: center;
+}
+
+.main h2 .title-border-top {
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background: url(../img/red.png);
+}
+
+.main h2 .title-en {
+	margin-top: 6px;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.main h2 .title-cn {
+	margin-top: 4px;
+	font-size: 22px;
+	letter-spacing: 5px;
+}
+
+.main h2 .title-cn span {
+	color: #de0f18;
+}
+
+.main p {
+	line-height: 1.6;
+	margin-top: 30px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+.introduction {
+	height: 110px;
+	text-align: center;
+}
+
+.introduction div {
+	display: inline-block;
+	width: 170px;
+	height: 110px;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.introduction div img {
+	width: 72px;
+	height: 54px;
+	margin-top: 30px;
+}
+
+.news {
+	min-width: 960px;
+	height: 449px;
+	margin-top: 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.news .news-img {
+	position: relative;
+	display: inline-block;
+	width: 433px;
+	height: 449px;
+	padding: 0 10px;
+	background: url(../img/news-first-bg.jpg) 10px 0 no-repeat;
+	background-size: 433px 449px;
+}
+
+.news .news-intro {
+	position: absolute;
+	left: 10px;
+	bottom: 0;
+	width: 433px;
+	height: 136px;
+	line-height: 136px;
+	box-sizing: border-box;
+	padding: 0 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: left;
+	white-space: normal;
+}
+
+.news .news-intro div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.news .news-intro h3 {
+	line-height: 1.6;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.index-2 .news .news-intro p {
+	line-height: 1.2;
+	margin: 0;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.news .news-content {
+	display: inline-block;
+	width: 497px;
+	height: 449px;
+	margin-right: 10px;
+	background-color: #ccc;
+}
+
+.index-3 .cooperation {
+	margin-top: 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.index-3 .cooperation div {
+	display: inline-block;
+	width: 300px;
+	height: 150px;
+	line-height: 150px;
+	margin: 0 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.index-3 .cooperation div:nth-child(1) {
+	background-color: #f7a72d;
+}
+
+.index-3 .cooperation div:nth-child(2) {
+	background-color: #e15e2b;
+}
+
+.index-3 .cooperation div:nth-child(3) {
+	background-color: #c32202;
+}
+
+.index-3 .cooperation img {
+	vertical-align: middle;
+}
+
+.index-4 {
+	width: 1200px;
+	height: 445px;
+	margin: 60px auto 0;
+	padding-top: 30px;
+	color: #fff;
+	background: url(../img/index-contactus-bg.jpg) 0 0 no-repeat;
+	background-size: 1200px 475px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.index-4 {
+		width: 960px;
+		height: 354px;
+		padding-top: 20px;
+		background-size: 960px 354px;
+	}
+}
+
+.index-4 h2 .title-border-top {
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background: url(../img/red1.png);
+}
+
+.contact-us {
+	width: 100%;
+	height: 345px;
+	margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us {
+		height: 254px;
+		margin-top: 20px;
+	}
+}
+
+.contact-us .contact-us-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	background: url(../img/contactus-map.png) no-repeat 170px 5px;
+	background-size: 403px 340px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-left {
+		background: url(../img/contactus-map.png) no-repeat 150px 0;
+		background-size: 297px 250px;
+	}
+}
+
+.contact-us .contact-us-right {
+	float: left;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.contact-us .contact-us-right form {
+	display: inline-block;
+	position: relative;
+	width: 310px;
+	font: 13.3333px Arial;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-right form {
+		width: 250px;
+	}
+}
+
+.contact-us .contact-us-right input {
+	width: 300px;
+	margin-top: 10px;
+	border: 0px;
+	outline: none;
+	padding: 5px;
+}
+
+.contact-us .contact-us-right input.text {
+	height: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-right input {
+		width: 240px;
+		margin-top: 5px;
+		font-size: 12px;
+	}
+	.contact-us .contact-us-right input.text {
+		height: 14px;
+	}
+}
+
+.contact-us .contact-us-right textarea {
+	width: 300px;
+	height: 55px;
+	margin-top: 10px;
+	border: 0px;
+	outline: none;
+	padding: 5px;
+	resize: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-right textarea {
+		width: 240px;
+		height: 50px;
+		margin-top: 5px;
+		font-size: 12px;
+	}
+}
+
+.contact-us .contact-us-right input.button {
+	position: absolute;
+	right: 0;
+	width: 60px;
+	color: #fff;
+	background-color: #f00;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-right input.button {
+		width: 50px;
+		padding: 3px;
+	}
+}
+
+.contact-us .contact-us-right div {
+	margin-top: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-right div {
+		margin-top: 30px;
+	}
+}
+
+.contact-us .contact-us-right p {
+	line-height: 1.8;
+	margin: 0;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+	.contact-us .contact-us-right p {
+		line-height: 1.4;
+		font-size: 10px;
+	}
+}
+
+.company {
+	width: 100%;
+	margin: 30px 0 60px;
+	text-align: center;
+	background-color: #ebebeb;
+}
+
+.company img {
+	width: 20%;
+	margin: 20px;
+	vertical-align: middle;
+}

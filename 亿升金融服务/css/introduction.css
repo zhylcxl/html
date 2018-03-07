@@ -1,0 +1,181 @@
+
+.banner-slide img {
+	display: block;
+	width: 100%;
+}
+
+.about-us {
+	background: url(../img/aboutus-bg.jpg) no-repeat 0 0;
+}
+
+.about-us .path {
+	width: 86%;
+	min-width: 960px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 0 3%;
+	font-size: 16px;
+}
+
+.about-us .path img {
+	width: 20px;
+	height: 18px;
+	vertical-align: text-top
+}
+
+.about-us .path a:link {
+	color: #000;
+}
+
+.about-us .path a:hover {
+	color: #000;
+	cursor: pointer;
+}
+
+.about-us .path a:visited {
+	color: #000;
+}
+
+.about-us .path span {
+	cursor: pointer;
+}
+
+.main {
+	margin-top: 60px;
+}
+
+.main h2 {
+	font-weight: normal;
+}
+
+.main h2 .title-text {
+	text-align: center;
+}
+
+.main h2 .title-border-top {
+	width: 80px;
+	height: 5px;
+	margin: 0 auto;
+	background: url(../img/red.png);
+}
+
+.main h2 .title-en {
+	margin-top: 5px;
+	font-size: 12px;
+	color: #a89292;
+	letter-spacing: 2px;
+}
+
+.main h2 .title-cn {
+	margin-top: 5px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+
+.profile {
+	height: 400px;
+	line-height: 400px;
+	margin-top: 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.profile div {
+	display: inline-block;
+}
+
+.profile img {
+	width: 464px;
+	height: 400px;
+	vertical-align: middle;
+}
+
+.profile .profile-text {
+	width: 496px;
+	box-sizing: border-box;
+	padding: 0 0 0 50px;
+	color: #333;
+	vertical-align: middle;
+	text-align: left;
+	white-space: normal;
+}
+
+.profile p {
+	line-height: 2.0;
+	letter-spacing: 4px;
+}
+
+.introduction-2 {
+	padding: 30px 0;
+	background-color: rgba(209, 209, 209, 0.7);
+}
+
+.culture {
+	margin-top: 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.culture div {
+	display: inline-block;
+	width: 280px;
+	margin: 0 20px;
+	vertical-align: middle;
+	white-space: normal;
+	background-color: #fff;
+}
+
+.culture div:first-child {
+	margin-left: 0;
+}
+
+.culture div:last-child {
+	margin-right: 0;
+}
+
+.culture div h3 {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: 500;
+	background-color: #eee;
+}
+
+.culture div h3 span {
+	color: #f00;
+}
+
+.culture div p {
+	height: 170px;
+	line-height: 1.4;
+	box-sizing: border-box;
+	padding: 10px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.culture div img {
+	display: block;
+	width: 280px;
+}
+
+.introduction-3 {
+	background-color: #fff;
+}
+
+.partner {
+	width: 100%;
+	margin: 30px 0 60px;
+	text-align: center;
+}
+
+.partner img {
+	width: 20%;
+	margin: 20px;
+	vertical-align: middle;
+}
